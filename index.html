@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2>User Registration</h2>
+    <form action="/user-registraion">
+        <p><b>*First Name:</b></p>
+        <input type="text" placeholder="Your First Name" required>
+        <p><b>*Last Name:</b></p>
+        <input type="text" placeholder="Your Last Name" required>
+        <p><b>*Country</b></p>
+        <input type="text" placeholder="Country" required>
+        <p><b>Gender:</b></p>
+        <label for="male">
+            <input id="male" type="radio" value="male" name="male-female">Male
+        </label>
+        <label for="female">
+            <input id="female" type="radio" value="female" name="male-female">Female
+        </label>
+        <div>
+            <p><b>Preferred Programming Language</b></p>
+            <label>
+                <input type="checkbox" value="c" name="preferred_lang">C
+                </b></label>
+            <label>
+                <input type="checkbox" value="c++" name="preferred_lang">C++
+            </label>
+            <label>
+                <input type="checkbox" value="python" name="preferred_lang">Python
+            </label>
+            <label>
+                <input type="checkbox" value="javascript" name="preferred_lang">JavaScript
+            </label>
+            <label>
+                <input type="checkbox" value="other" name="preferred_lang">Other
+            </label>
+        </div>
+        <div>
+            <input type="checkbox" value="agree" name="condition">I am agree to all the terms and condition.
+        </div>
+        <div>
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+</body>
+
+</html>
