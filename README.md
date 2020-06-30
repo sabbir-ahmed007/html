@@ -1,7 +1,7 @@
 # User registration form
 
 
-Using only HTMl5.
+Using only HTML5.
 
 
 ### Terms covered-
